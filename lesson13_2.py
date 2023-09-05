@@ -1,6 +1,7 @@
 import student
 
-stu1 = student.Student("徐小明",78,92,68)
+#stu1 = student.Student("徐小明",78,92,68)
+stu1 = student.get_student("亂數人")
 print(f'中文:{stu1.chinese}')
 print(f'英文:{stu1.english}')
 print(f'數學:{stu1.math}')
